@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">baidu.com</domain>
+        <domain includeSubdomains="true">alayn.baidu.com</domain>
+        <domain includeSubdomains="true">smartapp.baidu.com</domain>
+        <domain includeSubdomains="true">passport.baidu.com</domain>
+        <domain includeSubdomains="true">exiavs.smartapps.cn</domain>
+        <domain includeSubdomains="true">smartapps.cn</domain>
+        <domain includeSubdomains="true">sycdn.smartapps.cn</domain>
+    </domain-config>
+</network-security-config>
