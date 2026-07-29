@@ -1,4 +1,4 @@
-package com.example.expressapp.history
+package io.github.yzjdev.expressapp.history
 
 import android.content.Context
 import android.content.SharedPreferences

@@ -1,4 +1,4 @@
-package com.example.expressapp
+package io.github.yzjdev.expressapp
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -22,12 +22,12 @@ import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.expressapp.history.HistoryStorage
-import com.example.expressapp.history.QueryHistoryItem
-import com.example.expressapp.log.LogBuffer
-import com.example.expressapp.log.LogLevel
-import com.example.expressapp.log.QueryLog
-import com.example.expressapp.tracker.ExpressTracker
+import io.github.yzjdev.expressapp.history.HistoryStorage
+import io.github.yzjdev.expressapp.history.QueryHistoryItem
+import io.github.yzjdev.expressapp.log.LogBuffer
+import io.github.yzjdev.expressapp.log.LogLevel
+import io.github.yzjdev.expressapp.log.QueryLog
+import io.github.yzjdev.expressapp.tracker.ExpressTracker
 
 class SFTrackingActivity : ComponentActivity() {
 

@@ -1,4 +1,4 @@
-package com.example.expressapp.ui
+package io.github.yzjdev.expressapp.ui
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -60,8 +60,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.example.expressapp.history.QueryHistoryItem
-import com.example.expressapp.tracker.TraceItem
+import io.github.yzjdev.expressapp.history.QueryHistoryItem
+import io.github.yzjdev.expressapp.tracker.TraceItem
 import kotlinx.coroutines.delay
 
 @OptIn(ExperimentalFoundationApi::class)

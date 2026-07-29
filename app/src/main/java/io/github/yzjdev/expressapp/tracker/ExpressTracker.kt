@@ -1,8 +1,8 @@
-package com.example.expressapp.tracker
+package io.github.yzjdev.expressapp.tracker
 
-import com.example.expressapp.log.LogBuffer
-import com.example.expressapp.log.LogLevel
-import com.example.expressapp.log.QueryLog
+import io.github.yzjdev.expressapp.log.LogBuffer
+import io.github.yzjdev.expressapp.log.LogLevel
+import io.github.yzjdev.expressapp.log.QueryLog
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.BufferedReader

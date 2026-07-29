@@ -1,4 +1,4 @@
-package com.example.expressapp.ui
+package io.github.yzjdev.expressapp.ui
 
 import android.annotation.SuppressLint
 import android.net.Uri

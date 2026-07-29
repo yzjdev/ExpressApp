@@ -1,4 +1,4 @@
-package com.example.expressapp.ui
+package io.github.yzjdev.expressapp.ui
 
 import android.content.Context
 import android.net.Uri
@@ -59,9 +59,9 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.example.expressapp.history.QueryHistoryItem
-import com.example.expressapp.tracker.ExpressData
-import com.example.expressapp.tracker.TraceItem
+import io.github.yzjdev.expressapp.history.QueryHistoryItem
+import io.github.yzjdev.expressapp.tracker.ExpressData
+import io.github.yzjdev.expressapp.tracker.TraceItem
 import org.json.JSONArray
 
 internal val finalStatuses = setOf("已签收", "本人签收", "代签收", "已签收（代收点）", "已送达")

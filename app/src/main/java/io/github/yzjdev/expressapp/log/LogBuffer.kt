@@ -1,4 +1,4 @@
-package com.example.expressapp.log
+package io.github.yzjdev.expressapp.log
 
 object LogBuffer {
 

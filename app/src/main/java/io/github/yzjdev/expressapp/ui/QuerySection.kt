@@ -1,4 +1,4 @@
-package com.example.expressapp.ui
+package io.github.yzjdev.expressapp.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -19,7 +19,7 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.expressapp.R
+import io.github.yzjdev.expressapp.R
 
 @Composable
 fun EmptyState() {

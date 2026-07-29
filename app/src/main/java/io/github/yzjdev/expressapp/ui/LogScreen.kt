@@ -1,4 +1,4 @@
-package com.example.expressapp.ui
+package io.github.yzjdev.expressapp.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -43,9 +43,9 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.example.expressapp.log.LogBuffer
-import com.example.expressapp.log.LogLevel
-import com.example.expressapp.log.QueryLog
+import io.github.yzjdev.expressapp.log.LogBuffer
+import io.github.yzjdev.expressapp.log.LogLevel
+import io.github.yzjdev.expressapp.log.QueryLog
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

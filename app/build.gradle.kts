@@ -4,15 +4,16 @@ plugins {
 }
 
 android {
-    namespace = "com.example.expressapp"
+    namespace = "io.github.yzjdev.expressapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.expressapp"
+        applicationId = "io.github.yzjdev.expressapp"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+        resourceConfigurations += setOf("zh", "en")
     }
 
     buildFeatures {
@@ -46,6 +47,12 @@ android {
             applicationIdSuffix = ".debug"
         }
         release {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
             signingConfig = signingConfigs.getByName("release")
         }
     }

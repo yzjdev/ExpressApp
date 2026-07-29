@@ -1,4 +1,4 @@
-package com.example.expressapp.tracker
+package io.github.yzjdev.expressapp.tracker
 
 interface RouteAnalyzer {
     fun deriveFrom(traces: List<TraceItem>): String
